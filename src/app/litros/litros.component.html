@@ -1,0 +1,15 @@
+<div>
+    <br>
+    <h1>Cálculo de Combustível</h1>
+    <p>Digite quantidade de litros gasto:</p>
+    <p><input type="text" [(ngModel)]="litros"> </p> 
+    <p>Digite distância percorrida:</p> 
+    <p><input type="text" [(ngModel)]="distancia"> </p>
+    <button (click)="calcular()" >Calcular</button>
+
+    <p>{{kml}} Km/l</p>
+    <p *ngIf="kml>13">Econômico</p> 
+    <p *ngIf="kml >= 10 && kml <= 12.99 ">Normal</p> 
+    <p *ngIf="kml < 9.9">Gastador</p> 
+    <br>
+</div>

@@ -1,0 +1,16 @@
+div{ 
+    background-color: seashell;
+    width: 500px; 
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+p{
+    size: 15px;
+}
+h1{
+    color: deeppink;
+}
+button{
+    background-color: deeppink;
+}
